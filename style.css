@@ -1,0 +1,439 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 70px;
+}
+.header h1{
+    font-size: 50px;
+}
+.header ul{
+    display: flex;
+    list-style: none;
+}
+.header ul li{
+    padding: 20px;
+    font-size: 28px;
+}
+.header ul li a{
+    text-decoration: none;
+    color: black;
+}
+.login{
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    padding: 10px 40px;
+    background-color: #204E51;
+}
+.signin{
+    margin-top: 20px;
+    border: 1px #204E51 solid;
+    border-radius: 8px;
+    font-size: 20px;
+    color: #204E51;
+    padding: 10px 40px;
+}
+.hero{
+    text-align: center;
+    background-color: aqua;
+    background-image: url(bgImage.jpeg);
+    background-size: 100%;
+    color: white;
+    opacity: 0.8;
+    padding-bottom: 20px;
+}
+.hero h1{
+    padding: 5%;
+    font-size: 90px;
+}
+.hero p{
+    font-size: 19px;
+    margin: 20px 20%;
+}
+.hero .getstartbtn{
+    padding: 14px 50px;
+    border: none;
+    border-radius: 12px;
+    background-color: #204E51;
+    color: white;
+    font-size: 20px;
+}
+.learnmorebtn{
+    padding: 14px 50px;
+    border: 1px #204E51 solid;
+    background-color: transparent;
+    border-radius: 12px;
+    color: white;
+    font-size: 20px;
+}
+.passion-parent{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.passion-title h1{
+    font-size: 70px;
+    font-weight: bold;
+    color: #204E51;
+    line-height: 80px;
+}
+.passion-title button{
+    margin-top: 30px;
+    padding: 14px 50px;
+    color: white;
+    background-color: #204E51;
+    font-size: 20px;
+    border-radius: 12px;
+}
+.passion-img{
+    position: relative;
+}
+.passion-img img{
+    height: 550px;
+    width: 470px;
+    border-radius: 20px;
+}
+.date{
+    padding: 30px;
+    color: #204E51;
+    background-color: white;
+    box-shadow: 1px 3px 2px black;
+    border-radius: 12px;
+    position: absolute;
+    bottom: 20px;
+    right: 99px;
+}
+.service{
+    margin: 60px 10px;
+    text-align: center;
+}
+.service h1{
+    font-size: 70px;
+    color: #204E51;
+}
+.service p{
+    font-size: 20px;
+    margin-top: 30px;
+    line-height: 30px;
+}
+.items-parent{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    gap: 5%;
+    justify-content: center;
+    margin-bottom: 130px;
+}
+.item1{
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 1px 2px 3px #204E51;
+    padding: 60px 1px;
+    width: 100%;
+    height: 180px;
+    text-align: center;
+}
+.item1 h1{
+    font-size: 30px;
+    margin-top: 20px;
+    color: #204E51;
+}
+.benefit-parent {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.right h1{
+    font-size: 90px;
+    color: #204E51;
+}
+.right p{
+    font-size: 20px;
+    margin-right: 60px;
+}
+.right button{
+    background-color: #204E51;
+    color: white;
+    margin-top: 30px;
+    border: none;
+    border-radius: 12px;
+    font-size: 20px;
+    padding: 10px 40px;
+}
+.right i{
+    padding-right: 20px;
+}
+.left{
+    width: 90%;
+    height: 600px;
+    background-color: #204E51;
+    border-radius: 12px;
+    padding: 40px;
+}
+.icon1{
+    display: flex;
+    margin: 5% 5%;
+    color: white;
+}
+.icon1 i{
+    padding: 50px;
+    border-radius: 50%;
+    background-color: #12474b;
+}
+.icon1 h1{
+    font-size: 40px;
+}
+.icon1 p{
+    font-size: 20px;
+}
+.title{
+    padding: 20px;
+}
+.our-product{
+    text-align: center;
+    color: #204E51;
+}
+.our-product h1{
+    font-size: 50px;
+    margin-top: 70px;
+}
+.product-icon{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    gap: 3%;
+    justify-content: center;
+    margin: 60px 0px;
+}
+.box-3{
+    justify-content: center;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 1px 2px 3px #204E51;
+}
+.box-3 img{
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    height: 250px;
+    width: 80%;
+}
+.box-3 h1{
+    padding-bottom: 20px;
+}
+.box-3 p{
+    padding-bottom: 20px;
+}
+.testimonials .testim{
+    margin-top: 90px;
+    text-align: center;
+}
+.testim h1{
+    color: #204E51;
+    font-size: 50px;
+}
+.tes-icons{
+    display: flex;
+    gap: 50px;
+    margin: 80px 20px;
+}
+.tes-icons i{
+    color: #204E51;
+    margin-top: 170px;
+    margin-bottom: 170px;
+    box-shadow: 1px 2px 3px #d2dcdd;
+}
+.testim-box{
+    display: flex;
+    gap: 25px;
+    background-color: #204E51;
+    color: white;
+    padding: 85px 90px;
+    border-radius: 12px;
+    width: 90%;
+    height: 100%;
+}
+.testim-box img{
+    border-radius: 14px;
+}
+.testim-title i{
+    box-shadow: none;
+    margin: 0;
+    color: gold;
+    justify-content: center;
+}
+.our-blog{
+    text-align: center;
+    color: #204E51;
+}
+.our-blog h1{
+    font-size: 50px;
+}
+.blog-icons{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 3%;
+    justify-content: center;
+    margin: 70px 20px;
+}
+.box-2 img{
+    border-radius: 12px;
+    width: 100%;
+    height: 400px;
+}
+.footer{
+    background-color: #204E51;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 80px 50px;
+}
+.footer ul{
+    list-style: none;
+}
+.footer ul li{
+    padding-bottom: 20px;
+}
+.footer h1{
+    padding-bottom: 20px;
+}
+.footer p{
+    padding-bottom: 20px;
+}
+.footer i{
+    padding-top: 30px;
+    padding-right: 20px;
+}
+
+
+
+
+
+@media screen and (max-width: 900px){
+    .buttons{
+        display: none;
+    }
+    .header{
+        padding: 12px;
+    }
+    .header ul li{
+        padding: 10px;
+        font-size: 20px;
+    }
+    .header h1{
+        margin: 18px;
+        font-size: 26px;
+    }
+    .hero h1{
+        font-size: 35px;
+    }
+    .hero p{
+        font-size: 20px;
+        margin: 18px;
+    }
+    .learnmorebtn{
+        margin-top: 8px;
+    }
+    .passion-parent{
+        display: flex;
+        flex-direction: column;
+    }
+    .passion-title h1{
+        font-size: 44px;
+        line-height: 50px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .passion-title p{
+        margin: 2px 20px;
+    }
+    .passion-title button{
+        margin-left: 20px;
+    }
+    .passion-img img{
+        margin: 20px;
+        width: 90%;
+    }
+    .date{
+        bottom: -10px;
+        right: 80px;
+    }
+    .service h1{
+        font-size: 40px;
+    }
+    .service p{
+        margin: 20px;
+        text-align: justify;
+    }
+    .items-parent{
+        display: grid;
+        grid-template-columns: 300px;
+        gap: 10px   ;
+    }
+    .benefit-parent{
+        display: flex;
+        flex-direction: column;
+    }
+    .right h1{
+        font-size: 44px;
+    }
+    .right{
+        margin-bottom: 20px;
+    }
+    .left{
+        width: 90%;
+        padding: 20px;
+    }
+    .left h1{
+        font-size: 35px;
+    }
+    .our-product h1{
+        font-size: 44px;
+    }
+    .our-product p{
+        text-align: justify;
+        margin: 20px;
+    }
+    .product-icon{
+        display: grid;
+        grid-template-columns: 300px;
+        gap: 1%;
+        margin-bottom: 100px;
+    }
+    .testim h1{
+        font-size: 44px;
+    }
+    .testim{
+        text-align: justify;
+        margin: 10px;
+    }
+    .tes-icons{
+        display: flex;
+        gap: 1%;
+    }
+    .tes-icons i{
+        margin-top: 70px;
+    }
+    .testim-box{
+        width: 90%;
+        padding: 20px 10px;
+    }
+    .testim-box img{
+        width: 25%;
+        height: 100px;
+    }
+    .testim-box h1{
+        font-size: 20px;
+    }
+    .testim-box p{
+        font-size: 10px;
+    }
+    .testim-box i{
+        margin-top: 0;
+    }
+}
